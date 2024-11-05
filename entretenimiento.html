@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Snake</title>
+    <link rel="stylesheet" href="stylessnake.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="multimedia/Logo.png" alt="Logo de la página" /></a>
+            <h1>Periódico Independiente Sopó</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="entretenimiento.html">entretenimiento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="juego">
+            <h2>Juego de Snake</h2>
+            <div class="game-container">
+                <canvas id="snakeCanvas" width="400" height="400"></canvas>
+            </div>
+            <button id="startBtn">Iniciar Juego</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p>Email: aguaapp3@gmail.com>
+                <p>Teléfono: +57 123 456 7890</p>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <p>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=61566389681221&mibextid=LQQ4d">Facebook</a> | 
+                    <a target="_blank" href="https://x.com/aguaapp3?s=21">X</a> | 
+                    <a target="_blank" href="https://www.instagram.com/agua_app?igsh=bmoybHcxcmdzM2R4">Instagram</a>
+                </p>
+            </div>
+            <div class="footer-section">
+                <h4>Ubicación</h4>
+                <p>Calle 123, Sopó, Cundinamarca</p>
+            </div>
+        </div>
+        <p>&copy; 2024 Periodismo Independiente de Sopó. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="SnakeJS.js"></script>
+</body>
+</html>
